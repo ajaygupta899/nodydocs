@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Nody - Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- Facebook Pixel Code -->
+    <!-- End Facebook Pixel Code -->
+</head> 
+
+<body >
+    <div class="page-wrapper">
+        
+        <div class="doc-wrapper">
+            <div class="container">
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+						
+						<div class="content-inner">
+                           
+							<section id="get-started-section" class="doc-section">
+								
+									<h2 class="section-title">Get Started</h2>
+								
+									<div class="section-block">
+									
+										<p>Thank you for purchasing our app</p>
+
+										<p>Please read the documentation carefully , and if you have any question check us . Most pages are accompanied by a video tutorial , it's recommended to check both , the video and the written Documentation . 
+											
+											<h4 id="phainc-theme-addons">Must Read this:</h4>
+											After purchase if you run the project and test the build in phone it will not work becuase you have to setup the <a class="scrollto" href="#API-Configuration">Web API</a> first then app will be works fine.
+											<br><br>
+											<a class="scrollto" href="#API-Configuration">Web API</a> is in PHP 7.0 and it will work on any kind of hosting packages 
+										</p>
+										
+									</div>
+							</section>
+								
+								
+							<section id="API-Configuration" class="doc-section">
+								<h2 class="section-title"> Quick Setup Web API Configuration</h2>
+								<div class="section-block">
+									
+									<p><strong>Step 1 -</strong> You have to upload the API files which we have provided in your downloaded package from <strong>codecanyon</strong></p>
+									<p><strong>Step 2 -</strong> Login in your hosting cpanel Navigate to <em>File Manager and Create a folder</em> <strong>"admin"</strong> and upload the admin.zip files , then extract it </p>
+									<p><strong>Step 3 -</strong> For API configuration You have to go http://domain.com/API/</p>
+									<p><strong>Step 4 -</strong> Make sure All the Server requirement are enabled</p>
+									<p><strong>Step 5 -</strong> Fill the required information and submit</p>
+									<p><strong>Step 6 -</strong>  You can get firebase database url from there , Follow Screenshot <a href="assets/img/step-10.png" target="_blank">Click to view screenshot</a></p>
+									
+									<img src="assets/img/serverRequirement.png">
+									
+									<p>Make sure firebase real time database permission is allow <a href="assets/img/Firebase_change_rule.png" target="_blank">Click to view screenshot</a></p>
+									<img src="assets/img/inputForm.png">
+									<p>If you fill any thing wrong which is not correct , fields color will be red</p>
+									<img src="assets/img/inputFormError.png">
+									
+									<!--<p>After Complete the <em>Quick Setup</em> you have to remove the <em>installer folder</em></p>-->
+									<!--<img src="assets/img/formCompleted.png">-->
+									
+								</div>
+							
+								<div class="section-block">
+									
+									<h4>How to setup Database</h4>
+									<!--<p>Here is the Helping video for setup web API and admin panel</p>-->
+									<!--<iframe src="https://www.youtube.com/embed/tG8NU4pQ6GQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="520px" frameborder="0"></iframe>-->
+									
+									<p>installing Binder PHP API is an easy process and we will guide you through it .</p>
+									<p>Before getting started, please make sure your web server meets all the requirements: </p>
+									
+									<ul>
+										<li>Latest PHP Version 7.0 </li>
+										<li>MySQL extension (enabled on all hosts by default)</li>
+									</ul>
+
+									<h4>Step 1</h4>
+									<p>Make a folder on your hosting "API" and upload API-Code files in it</p>
+									
+									<img src="assets/img/step-1.png">
+
+									<h4>Step 2</h4>
+									<p>Upload Files in "API" folder</p>
+									
+									<img src="assets/img/step-2.png">
+
+									<h4>Step 3</h4>
+									
+									<ul>
+										<li>Create Database in mysql databases ( in cPanel ) with the name of "Binder" you can write what ever you want</li>
+									</ul>
+									
+									<img src="assets/img/step-4.png">
+									
+									<ul>
+										<li>Create a new user</li>
+									</ul>
+									
+									<img src="assets/img/step-5.png">
+
+									<ul>
+										<li>Assign that user to database</li>
+									</ul>
+									
+									<img src="assets/img/step-6.png">
+
+								
+									
+									<h4>Step 4</h4>
+									
+									<p>How to import Sql database & user in phpmyadmin</p>
+									<iframe src="https://www.youtube.com/embed/N5h-CQy227A" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="100%" height="470px" frameborder="0"></iframe>
+									
+									
+								</div>	
+							
+							</section>
+
+
+							<section id="Admin-Panel-Configuration" class="doc-section">
+								<h2 class="section-title"> Quick Setup Admin Panel Configuration </h2>
+								<div class="section-block">
+									
+									<p><strong>Step 1 -</strong> You have to upload the Admin panel files which we have provided in your downloaded package from <strong>codecanyon</strong></p>
+									<p><strong>Step 2 -</strong> Login in your hosting cpanel Navigate to <em>File Manager and Create a folder</em> <strong>"portal"</strong> and upload the portal.zip files , then extract it </p>
+									<p><strong>Step 3 -</strong> For configuration You have to go http://domain.com/API/</p>
+									<p><strong>Step 4 -</strong> Make sure All the Server requirement are enabled</p>
+									<p><strong>Step 5 -</strong> Replace the code that is mentioned in screenshot</p>
+									<p><strong>Step 6 -</strong>  Open domain.com/portal in your browser and login with "email:admin@admin.com" & "password:123456"</a></p>
+									
+									<img src="assets/img/fillPortalForm.png">
+									
+									<h4>Configuration Portal Chat</h4>
+									
+									<ul>
+										<li>Open Firebase and follow 1st and 2nd screenshot and copy the code and paste in portal/inbox.php </li>
+										
+									</ul>
+									<img src="assets/img/fakeprofile.png">
+									<img src="assets/img/fakeprofile1.png">
+									
+									
+									<p>edit portal/inbox.php and setup the firebase auth</p>
+									<img src="assets/img/inbox.png">
+									
+									
+								</div>	
+							
+							</section>
+							
+							
+							
+							<section id="Android-Configuration" class="doc-section">
+
+								<h2 class="section-title">Android Configuration:</h2>
+							
+								<div class="section-block">
+									
+									<p>In order to start configuring , you need to install Android studio and the 'Java SE Development Kit'. First download the android studio from here <a href="https://developer.android.com/studio/" target="_blank">Android Studio</a> </p>
+
+									
+									<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/0zx_eFyHRU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+									
+								</div>
+							</section>
+							
+							<section id="SDK-Manager" class="doc-section">
+
+								<h2 class="section-title">SDK Manager</h2>
+								
+								<div class="section-block">
+								
+								<p>The installer , as also shown in the video should automatically download and install all required components . if you want to do manual setup , download at least the following components using the SDK manager </p>
+								
+								
+									<ul>
+										<li>SDK tools </li>
+										<li>SDK platform Tools</li>
+										<li>SDK Build Tools</li>
+										<li>Google Play Services</li>
+										<li>Android Support Library</li>
+										<li>Google Repository</li>
+										<li>Google USB Driver</li>
+									</ul>
+
+									<p>You can download these SDK , if not installed already , using the SDK manager <a href="https://developer.android.com/studio/intro/update.html#sdk-manager">SDK Manager</a> After you're done, you can open Android Studio and continue. </p>
+									
+									<p><strong>*Note: After successfully installing the Android Studio please make a sample app project to install necessary files into computer by android studio.</strong></p>
+									
+								</div>
+							</section>
+							
+							
+							
+							<section id="Importing-Android-Project" class="doc-section">
+								<h2 class="section-title">Importing Android Project and Change Package Name</h2>
+								
+								<div class="section-block">
+									
+									<p>To import the app, simply open Android Studio and import/open the template. Make sure to wait for all the processes (the Gradle Build) to complete before continuing to the next step</p>
+									
+									<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/BM6xV6dUP2M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+									
+									<br><br>
+									<h4 id="phainc-theme-addons">Addition steps</h4>
+									<p>Addition steps Sometimes, the Gradle Build fails. In some cases additional components are needed, Android Studio will ask you to do download these additional SDK components in the 'messages' tab, simply follow the instructions provided to install and download the additional components. </p>
+									
+								</div>
+						
+							</section>
+							
+
+							<section id="Change-App-Name" class="doc-section">
+
+								<h2 class="section-title">Change App Name</h2>
+								
+								<div class="section-block">
+
+									<p>Below is illustrated how you can change the name of the application.</p>
+									<p>Go to <strong>app->res->values->strings (2)->strings.xml</strong></p>
+									<img src="assets/img/Change%20app%20name.png">
+									
+								</div>
+						
+							</section>
+								
+							<section id="Change-Color-Scheme" class="doc-section">
+								<h2 class="section-title">Change Color Scheme</h2>
+								<div class="section-block">
+
+									<p>Below is illustrated how you can change the color of the application.
+										<br>Go to <strong>app->res->values-> colors.xml</strong> 
+									</p>
+
+									<p>You can change your apps colors to create a custom look. The primary color is the color of the Toolbar, some buttons and headers. The primary
+										dark color is used for e.g. the status bar. get more color from here <a href="https://material.io/guidelines/style/color.html" target="_blank">material.io</a></p>
+		
+								
+									<img src="assets/img/Change%20color.png">
+																	
+								</div>	
+							
+							</section>
+							
+							
+							
+							
+							<section id="Change-Theme-of-Application" class="doc-section">
+								<h2 class="section-title"> Change Theme of Application </h2>
+								<div class="section-block">
+								
+									<img src="assets/img/Change%20style.png">
+
+								</div>	
+							
+							</section>
+
+
+
+
+							<section id="Change-App-icon" class="doc-section">
+								<h2 class="section-title"> Change App icon </h2>
+								<div class="section-block">
+								
+										<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/hfq6qZSysqM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>>
+
+								</div>	
+							
+							</section>
+
+							<section id="Change-Splash-screen " class="doc-section">
+								<h2 class="section-title"> Change Splash Screen  </h2>
+								<div class="section-block">
+								
+									<p>We need to put a png file with named ' ic_splashscreen' in the following folder: </p>
+									<p>Go to project location->nody->app->src->main->res->drawable</p>
+									
+								</div>	
+							
+							</section>
+							
+							
+							<section id="Change-API-Links" class="doc-section">
+								<h2 class="section-title"> Change API Links </h2>
+								<div class="section-block">
+									<p>Your Complete API URL should be <a href="#">http://domain.com/API/nody/index.php?p=</a></p>
+									<p>Click on app->java->com.packagename.appname-> <strong>Volley_Package</strong>-> <strong>Api_Links</strong> ->line no#. 9 approximately </p>
+									<img src="assets/img/Change_api_link.png">
+									<p>Above is illustrated how you can change the Rest Api link of the application. </p>
+									
+									
+								</div>	
+							
+							</section>
+							
+							<section id="Change-AdMob" class="doc-section">
+								<h2 class="section-title"> Setup Ad Mob </h2>
+								<div class="section-block">
+									<p>For Ad Mob setup you need ad mob id's which you get from your ad mob account. If you have no ad mob account then go to this <strong>URL: https://admob.google.com/home/</strong> 
+										make an account, get id's and paste in app as mentioned below.</p>
+									<img src="assets/img/Change_ad_id.png">
+									<p>Above is illustrated how you can change the Rest Api link of the application. </p>
+									
+								</div>	
+							
+							</section>
+
+							<section id="Remove-Admob-ads " class="doc-section">
+								<h2 class="section-title"> Remove Ad Mob ads  </h2>
+								<div class="section-block">
+									<p>If you want to remove ads from Recyclerview then follow the below screenshot.</p>
+									<img src="assets/img/removeAds.png">
+			
+								</div>	
+							
+							</section>
+							
+							
+							<section id="In-app-Purchases" class="doc-section">
+								<h2 class="section-title"> In-app Purchases </h2>
+								<div class="section-block">
+									
+									<img src="assets/img/Change_product_id.png">
+									<!-- <p>*In nody Doc we have a helping video for in app purchase which is correct
+										so there is no need to setup a new video for it. </p>
+									 -->
+									<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/8fTjHqercjY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1280" height="720" frameborder="0"></iframe></div>
+									
+									<br>
+									<!-- <p>Above is illustrated how you can change the name of the application and change the AdMod ID. </p> -->
+									
+									<!-- <p>
+										Go to com.dinosoftlabs.binder.Users.Users_F file and search "case R.id.refresh_btn" here you can see the code which will be changed if you don't want to show the Subscription options.
+									</p> -->
+									
+									<!-- <xmp>case R.id.refresh_btn: if(MainMenuActivity.purduct_purchase){ card_viewstack.reverse(); }
+	else open_subscription_view(); break;</xmp> -->
+
+									
+									
+									
+									
+								</div>	
+							
+							</section>
+							
+							<section id="Remove-Disable" class="doc-section">
+								<h2 class="section-title"> Remove/Disable Premium Feature </h2>
+								<div class="section-block">
+									
+									<p>If you want to remove/disable Premium Feature then follow Screenshot.</p>
+									<img src="assets/img/disablePremium.png">
+								</div>
+
+							</section>
+							
+							<section id="Remove-change" class="doc-section">
+								<h2 class="section-title"> Remove/Change Streaming and Video Call Limit </h2>
+								<div class="section-block">
+									
+									<p>If you want to remove/change live streaming and video calling limit dialog then follow Screenshot.</p>
+									<img src="assets/img/video_call_limit.png">
+								</div>
+
+							</section>
+							
+							<section id="Firebase-Configuring" class="doc-section">
+								<h2 class="section-title"> Firebase Configuration </h2>
+								<div class="section-block">
+									
+									<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/yMj22xM5k28" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+									
+								</div>	
+							
+							</section>
+
+							<section id="Change-Firebase" class="doc-section">
+								<h2 class="section-title">Change Firebase Database Rules </h2>
+								<div class="section-block">
+									
+									<img src="assets/img/Firebase_change_rule.png">
+									<img src="assets/img/firebase_storage_rule.png">
+									<p>if you have not provide the SHA1 key into the firebase project then phone login and google login will not work.
+										You have to add your SHA1 key for both debug and live mode.</p>
+									<img src="assets/img/firebaseconfig.png">
+									
+								</div>	
+							
+							</section>
+							
+							
+							
+							
+							
+							
+							<section id="Debug-and-release-Key" class="doc-section">
+								<h2 class="section-title"> Debug and Release Key </h2>
+								<div class="section-block">
+									
+									
+									
+									<p>Before going to next you have to learn about the SHA1 key for both debug and release. if you are in the development mode then you will use the debug SHA1 key but when you going to publish
+										the app on play store then you will have to use the SHA1 key of Release key.</p>
+								
+									
+									<img src="assets/img/debug.png">
+
+									<!-- <p><strong>*Note:</strong> Release key k liye jo nody doc ma jo video or SS lgy huy hain wo bilkul thek hai is liye ma wo idhr mention nh kr rha</p>
+									 -->
+									<h4 id="#">Method 1 How to get the SH1 key for the published app (Signed or release key)</h4>
+									
+									<p> To get realese sh1 contains two step. </p>
+									<p>Step1: you will generate your own app signing key <a href="https://developer.android.com/studio/publish/app-signing">Create signing key</a></p>
+									<p>Step2: Get the Sh1 key of app signing key</p>
+									
+									<p id="#">Get the Sh1 key. Run the below command on Command Promt</p>
+									
+									<div class="embed-responsive embed-responsive-16by9"><iframe src="https://www.youtube.com/embed/u8_R73GnVzY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="1280" height="720" frameborder="0"></iframe></div>
+									
+									<xmap>
+	keytool.exe -list -v -alias {alies name you set according to above toturial "key0" is the alies name} -keystore "{file adress of the key}" -storepass {password} -keypass {password}
+									</xmap>
+									
+									<h4 id="#">Method 2 How to get the SH1 key for the published app (Signed or release key)</h4>
+								
+									<p> Follow the steps</p>
+									
+									<img src="assets/img/sh1_key_1.png">
+									
+									<p>If you are see this screen that means you have the SS1 keys</p>
+									
+									<img src="assets/img/sh1_key_20045004500450045.png?time=1234">
+									<img src="assets/img/sh1_key_20046004500450045.png?time=1234">
+									<p>If you already have keys then you have to follow the phone number login step</p>
+									<img src="assets/img/sh1_key_3.png">
+									<img src="assets/img/sh1_key_4.png">
+									<img src="assets/img/sh1_key_5.png">
+									
+									
+								</div>	
+							
+							</section>
+							
+							
+							<section id="Google-Map-Configuration" class="doc-section">
+								<h2 class="section-title"> Google Map Configuration </h2>
+								<div class="section-block">
+									
+									
+									
+									<p>Make sure you have add the firebase first then you project on Google Api console will automatically show, means you don't need to create the project on Google api console if you created the firebase project</p>
+										
+									<img src="assets/img/gm1.png">
+									
+									<img src="assets/img/gm2.png">
+									
+									<p>Copy key and Paste into your project </p>
+									
+									<img src="assets/img/gm3.png">
+									
+									<p>Now if you want to publish your app then you have to get the release key. To get the release API key you need SHA1 key.
+										We have tell you in above how you can get SHA1 key. After getting SHA1 key you have to follow below pics:</p>
+									
+									<img src="assets/img/gm4.png">
+									<img src="assets/img/gm5.png">
+									<img src="assets/img/gm6.png">
+									<img src="assets/img/gm7.png">
+		
+		
+									<!-- <h3>Google Maps Api key</h3>
+									<p><strong>Step 1 -</strong> Setup API Keys , Get Google Maps Api keys <a href="https://console.cloud.google.com/">Console Cloud Google</a> Make sure to enable this API in Android and in PHP </p>
+									<ul>
+										<li>Google Maps distance matrix</li>
+										<li>Google Maps Places</li>
+										<li>Google Maps Geocoding</li>
+									</ul>	 -->
+								</div>	
+							
+							</section>
+							
+							
+							<section id="Facebook-Login" class="doc-section">
+								<h2 class="section-title"> Facebook Login </h2>
+								<div class="section-block">
+									
+									<h4>You have to follow the steps</h4>
+									<p>Here is the Helping video for setup facebook login </p>
+									<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/agsNMIFpH-4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+									
+									<!--<p> -->
+									<!--	Go to "facebook Developer" the link is given -->
+									<!--	<a href="https://developers.facebook.com/docs/facebook-login/android/v2.3" target="_blank">Open Link</a> -->
+									<!--</p>-->
+									
+									
+									<h4>Step 1</h4>
+									
+									<p> 
+										Go to "facebook Developer" the link is given 
+										<a href="https://developers.facebook.com/" target="_blank">developers.facebook.com</a> 
+										and Create a new app
+									</p>
+									<img src="assets/img/fb/fb1.png">
+									
+									<h4>Step 2</h4>
+									
+									<p> 
+										Go to "facebook Developer" the link is given 
+										<a href="https://developers.facebook.com/" target="_blank">developers.facebook.com</a> 
+										and Create a new app
+									</p>
+									<img src="assets/img/fb/fb2.png">
+									
+									<h4>Step 3</h4>
+									
+									<p> 
+										Then Go in <b>Setting > Basic</b> Fill privacy policy and application nature/cateogry and press save
+									</p>
+									<img src="assets/img/fb/fb3.png">
+									
+									<h4>Step 4</h4>
+									
+									<p> 
+										Then Go in <b>Setting > Basic</b> Add development palatform 
+									</p>
+									<img src="assets/img/fb/fb4.png">
+									
+									<h4>Step 5</h4>
+									
+									<p> 
+										Then Go in <b>Setting > Basic > development platform</b> Select Android  
+									</p>
+									<img src="assets/img/fb/fb5.png">
+									
+									<h4>Step 6</h4>
+									
+									<p> 
+										Follow screenshot 
+									</p>
+									<img src="assets/img/fb/fb6.png">
+									<p>We have already told you in above how to get package name from project. So you will just copy the package name and paste at under Google Play Package Name.</p>
+									<p>To get the Class name Follow screenshot</p>
+									<img src="assets/img/fb/fb7.png">
+									<p>For Keyhash you have to run your app on your emulator or real device. When your app will successfully run at your emulator or real device then Keyhash will automatically generated you just have to follow the below screenshot.</p>
+									<img src="assets/img/fb/fb8.png">
+									
+									<p>When you publish the app on playstore you have to add another Keyhash in facebook developer account. For getting that keyhash you have to just install the app from playstore and attach the mobile with your PC and search the keyhash by same process.</p>
+									
+									<h4>Step 7</h4>
+									
+									<p> 
+										Follow screenshot 
+									</p>
+									<img src="assets/img/fb/fb9.png">
+									
+									<h4>Step 8</h4>
+									
+									<p> 
+										Follow screenshot  
+									</p>
+									<img src="assets/img/fb/fb10.png">
+									
+									<h4>Step 9</h4>
+									
+									<p> 
+										Follow screenshot 
+									</p>
+									<img src="assets/img/fb/fb11.png">
+									
+									
+									<h4>Step 10</h4>
+									
+									<p> 
+										Follow screenshot 
+									</p>
+									<img src="assets/img/fb/fb12.png">
+									
+									<h4>Step 11</h4>
+									
+									<p> 
+										Copy APP ID & APP Secret Follow screenshot 
+									</p>
+									<img src="assets/img/fb/fb13.png">
+									
+									
+									<h4>Step 12</h4>
+									
+									<p> 
+										Follow screenshot 
+									</p>
+									<img src="assets/img/fb/fb14.png">
+									<img src="assets/img/fb/fb15.png">
+
+
+									<!--<img src="assets/img/facebook_change_id.png">-->
+									
+									<!--<h4>Below related to Step 5 </h4>-->
+									
+									<!--<p>Package Name is <b>com.dinosoftlabs.binder</b></p>-->
+									<!--<p>Default Activity Class Name <b>com.dinosoftlabs.binder.Accounts.Login_A</b></p>-->
+
+									<!--<p> Give the App Id and App secret in firebase Authuntication </p>-->
+
+									<!--<img src="assets/img/firebase_facebook_auth.png">-->
+									
+									
+									<!--<h4>Step 13</h4>-->
+									
+									<!--<p> -->
+									<!--	Generate <b>KeyHash</b> Follow screenshort -->
+								<!--   </p>-->
+									<!--<img src="assets/img/fb/keyhash.png">-->
+
+			<!--                        <h4>Step 13</h4>-->
+									
+									<!--<p> -->
+									<!--	Follow screenshort -->
+								<!--   </p>-->
+									
+									
+									
+									
+								</div>	
+							
+							</section>
+							
+							<section id="Phone-Login-Configuration" class="doc-section">
+								<h2 class="section-title"> Phone Login Configuration </h2>
+								<div class="section-block">
+									<p>For "login with phone number" you have to enable the settings from firebase </p>
+									
+									<img src="assets/img/google/ph1.png">
+									
+									<img src="assets/img/google/ph2.png">
+								</div>
+							</section>
+							
+							<section id="Google-Login-Configuration" class="doc-section">
+								<h2 class="section-title"> Google Login Configuration </h2>
+								
+								
+								<h4>You have to follow the steps</h4>
+								<p>Here is the Helping video for setup google login </p>
+								<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/R0pE60i0j6U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+										
+									
+								<div class="section-block">
+								
+									<h4> Step 1 </h4>
+									<p>Go to this link: <a href="#">https://developers.google.com/identity/sign-in/android/start-integrating</a> </p>
+									<p>Follow screenshot</p>
+									<img src="assets/img/google/GO.png">
+									
+									
+									<h4> Step 2 </h4>
+									<p>Follow screenshot</p>
+									<p>below we are putting our Package name and SHA1 key into Configure your OAuth Client dialog. We have already mentioned above how you can get Package name or SHA1.</p>
+									<img src="assets/img/google/G1.png">
+									
+									<h4> Step 3 </h4>
+									<p>Follow screenshot</p>
+									<img src="assets/img/google/G2.png">
+									
+									<h4> Step 4 </h4>
+									<p>Follow screenshot</p>
+									<img src="assets/img/google/G3.png">
+									
+									<h4> Step 5 </h4>
+									<p>Follow screenshot</p>
+									<img src="assets/img/google/G4.png">
+									
+								</div>
+							</section>
+							
+							
+							<section id="Hide-Any-Social-Media-Button" class="doc-section">
+								<h2 class="section-title"> Hide Any Social Media Button </h2>
+									
+								<div class="section-block">
+									<!-- <h4>If you want to disable facebook login</h4> -->
+									
+									<p> 
+										if you want to disable Facebook or google login button you have to hide the mentioned View/Button just add</p>
+										<strong>android:visibility="gone"</strong>
+									<img src="assets/img/Screenshot_19.png">
+									
+								</div>
+							</section>
+							
+							
+							<section id="Giphy-API" class="doc-section">
+								<h2 class="section-title"> Giphy API & Integration </h2>
+								
+								<div class="section-block">
+									<p>If you Here is the helping video for setup Giphy API </p>
+									<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/BAxaK11iiSM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+									<p>Click on <a href="#">developers.giphy.com</a> . "Create an Account" and then "Create an App" then you get the API key
+									"Copy the key" and paste at mentioned place in following screenshot.</p>	
+									
+									<img src="assets/img/Screenshot_20.png">
+								</div>
+							</section>		
+						
+							
+							 <section id="voice-calling" class="doc-section">
+
+								<h2 class="section-title"> Voice &amp; Video Calling </h2>
+
+								<h4>Twilio configuration</h4>
+								<p>Twilio is use for audio and video call in the project.In the below steps we will tell
+									you have to create a link for getting the access token which will use for audio and
+									video calling.</p>
+
+								<p><strong>Step 1 -</strong> Go to https://www.twilio.com/ and signup. After signup you
+									will see the dashboard.</p>
+
+									<p> After click on menu option you will see this all option now
+									click on the highlighted option</p>			
+
+								<img src="assets/img/Screenshot_2.png">
+								<img src="assets/img/Screenshot_3.png">
+								<img src="assets/img/Screenshot_4.png">
+								<img src="assets/img/Screenshot_5.png">
+
+								<p><strong>Step 3 -</strong> After that go to tools and then create the api key.</p>
+							<img src="assets/img/Screenshot_6.png">
+
+							<img src="assets/img/Screenshot_7.png">
+								<p><strong>Step 4 -</strong> Save both the credentials in separate text file because it
+									will use in next process and if you click on done button it will not show you again.
+									So copy that. </p>
+							<img src="assets/img/Screenshot_8.png">
+						
+								<p><strong>Step 6 -</strong> First declare the api key and secrete here which will use
+									in functions code.</p>
+								<img src="assets/img/Screenshot_9.png">
+								<img src="assets/img/Screenshot_10.png">
+								<p><strong>Step 7 -</strong> Now start to create a function for getting the access token
+									which will use for calling.</p>
+									<img src="assets/img/Screenshot_11.png">
+								<img src="assets/img/Screenshot_12.png">
+								<img src="assets/img/Screenshot_13.png">
+								<code>
+									exports.handler = function(context, event, callback) <br>
+									{
+									<br>
+									const AccessToken = require('twilio').jwt.AccessToken;<br>
+									const VideoGrant = AccessToken.VideoGrant;<br>
+									<br>
+									const identity = event.identity;<br>
+									const roomname =event.roomname;<br>
+									<br>
+									// Create Video Grant<br>
+									const videoGrant = new VideoGrant({<br>
+									room: roomname,<br>
+									});
+									<br>
+									// Create an access token which we will sign and return to the client,<br>
+									// containing the grant we just created<br>
+									const token = new AccessToken(context.ACCOUNT_SID, context.Voice_API_KEY,
+									context.Voice_API_SECRET);<br>
+									<br>
+									token.addGrant(videoGrant);
+									<br>
+									token.identity = identity;
+									<br>
+									callback(null,{token: token.toJwt()});
+									<br>
+									};
+
+								</code>
+								<img src="assets/img/video_token.png">
+								<p><strong>Step 8 -</strong> Place the about generated link here.</p>
+								<img src="assets/img/Screenshot_38.png">
+
+
+							</section>
+
+							
+							<section id="video-calling" class="doc-section">
+								<h2 class="section-title"> Agora Configuration </h2>
+								<p>For live streaming video we have use the agora SDK. So in below we will tell you which action you have to done for run live streaming in to your project </p>
+								<h4>Step 1</h4>
+								<p>Go to https://sso.agora.io/v2/signup then sign up.</p>
+
+								<h4>Step 2</h4>
+								<p>After login you will go to agora dashboard their you can create your project</p>
+								
+								<img src="assets/img/agora_dashboard.png">
+								<img src="assets/img/create_project.png">
+								<img src="assets/img/create_project2.png">
+								<img src="assets/img/Screenshot_43.png">
+							</section>
+
+								<section id="In-app-Purchase" class="doc-section" >
+								<h2 class="section-title"> In-app Purchases </h2>
+								<div class="section-block">
+									
+									<p>Follow below steps to make product Id for In App Purchase </p>
+
+									<img src="assets/img/Inapppurchase/Screenshot_1.png">
+									<img src="assets/img/Inapppurchase/Screenshot_2.png">
+									<img src="assets/img/Inapppurchase/Screenshot_3.png">
+									<img src="assets/img/Inapppurchase/Screenshot_4.png">
+									<img src="assets/img/Inapppurchase/Screenshot_5.png">
+									<img src="assets/img/Inapppurchase/Screenshot_6.png">
+									<img src="assets/img/Inapppurchase/Screenshot_7.png">
+									<img src="assets/img/Inapppurchase/Screenshot_8.png">
+									<img src="assets/img/Inapppurchase/Screenshot_9.png">
+									<img src="assets/img/Inapppurchase/Screenshot_10.png">
+									<img src="assets/img/Inapppurchase/Screenshot_11.png">
+									<img src="assets/img/Inapppurchase/Screenshot_12.png">
+									<img src="assets/img/Inapppurchase/Screenshot_13.png">
+									<img src="assets/img/Inapppurchase/Screenshot_14.png">
+									<img src="assets/img/Inapppurchase/Screenshot_15.png">
+									<img src="assets/img/Inapppurchase/Screenshot_16.png">
+									<img src="assets/img/Inapppurchase/Screenshot_17.png">
+									<img src="assets/img/Inapppurchase/Screenshot_18.png">
+									<img src="assets/img/Inapppurchase/Screenshot_19.png">
+																		
+								</div>	
+							
+							</section>
+
+
+							<section id="GenerateDebugAPK" class="doc-section">
+								<h2 class="section-title"> Generate Debug APK </h2>
+								
+								<div class="section-block">
+									<div class="embed-responsive embed-responsive-16by9"><iframe width="876" height="493" src="https://www.youtube.com/embed/CjegEN6s9rE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+									
+								</div>	
+								
+								<h4>Step 1</h4>
+								<p>Follow screenshot</p>
+								<img src="assets/img/Screenshot_44.png">
+							</section>
+							<section id="Push-Notification" class="doc-section">
+								<h2 class="section-title"> Enable Firebase Push Notification </h2>
+								<div class="section-block">
+									
+									
+									<p>To setup firebase push notificaton you have to follow these steps , also mention in this video <a href="https://www.youtube.com/watch?v=tG8NU4pQ6GQ&amp;feature=youtu.be" target="_blank">Youtube Video</a></p>
+									
+									<ul>
+										<li>edit the API files "API/config.php" and update firebase_key key </li>
+									</ul>
+									
+									<p>You can get api server key from here follow screenshort</p>
+									<img src="assets/img/setup_firebasePush.png">
+									
+									<p>You have to update firebase_key key in API/config.php here see screenshort </p>
+									<img src="assets/img/step-3.png">
+									
+									
+									
+								</div>	
+								
+								
+								<h4 id="#">Thank you & Support</h4>
+									
+								<p> I'd like to thank you again for your purchase and I hope you where able to successfully install the app and using it in your future business . If you need support or have some questions. You can visit our support resources here at <b style="color:#fc5a55;">ajayawswp.1@gmail.com</b> </p>
+								
+								<strong>What support does include</strong>
+								<ul>
+									<li>Answers to (technical) questions about the item's features</li>
+									<li>Assistance with reported bugs and issues</li>
+									<li>Answers to questions about importing and setting up the item as is described in the docs.</li>
+								</ul>
+	
+	
+								<strong>Please note that support does not include:</strong>
+								<ul>
+									<li>Customization &amp; adding new features</li>
+									<li>Installation Services</li>
+									<li>Support for 3rd party software and/or plugins</li>
+									<li>Content related rejections and violations from Google</li>
+	
+								</ul>
+							
+							</section>
+							
+							
+							<section id="faq" class="doc-section">
+								<h2 class="section-title"> FAQ </h2>
+								
+								<div class="section-block">
+									<h4 id="#">App Develope in native or not?</h4>
+									<p>Yes app is in native coding</p>
+									
+									<h4 id="#">Which PHP version?</h4>
+									<p>it will work on PHP 7.0 or more then 7.0 </p>
+									
+									<h4 id="#">Which Database You are using?</h4>
+									<p>We are using mysql database</p>
+									
+									<h4 id="#">Does Demo Data included (Demo users like on our app)?</h4>
+									<p>Yes Test/Demo users profiles are inlucded in the package</p>
+									
+									<h4 id="#">Does it have 3rd party services?</h4>
+									<p>Yes , It has Firebase Thrid party for real time chat and send push notifications, Which is free but limited  , 
+										after lot of users and usages you have to buy their packages  there are have 3 packages   Free , $25 monthly , Pay As you go
+										<a href="https://firebase.google.com/pricing/?authuser=0">See Firebase packages</a>
+									</p>
+									
+									<h4 id="#">Does it have Admin panel </h4>
+									<p>Yes It has admin panel as well which is in HTML/CSS and connected with datbase via PHP API</p>
+									
+									<h4 id="#">Does it have Documentation  </h4>
+									<p>Yes it has Documentaion about android , web api setup , admin panel setup , firebase push notification setup</p>
+									
+								</div>	
+							
+							</section>
+							
+							
+                        </div>
+                    </div>
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+	                                <a class="nav-link scrollto" href="#get-started-section">Get Started</a>
+	                                
+	                                <a class="nav-link scrollto" href="#API-Configuration">Web API Configuration</a>
+									<a class="nav-link scrollto" href="#Admin-Panel-Configuration">Admin Panel Configuration</a>
+									
+	                                <a class="nav-link scrollto" href="#Android-Configuration">Install Android studio</a>
+									<a class="nav-link scrollto" href="#SDK-Manager">SDK Manager</a>
+										<nav class="doc-sub-menu nav flex-column">
+										   <a class="nav-link scrollto" href="#Importing-Android-Project">Importing Android Project</a>
+										</nav>
+									
+									<a class="nav-link scrollto" href="#Change-App-Name">App Basic Setup</a>
+										<nav class="doc-sub-menu nav flex-column">
+										
+										 <a class="nav-link scrollto" href="#Change-App-Name">Change App Name</a>
+										   <a class="nav-link scrollto" href="#Change-Color-Scheme">Change Color Scheme</a>
+										   <a class="nav-link scrollto" href="#Change-Theme-of-Application">Change Theme of Application</a>
+										   <a class="nav-link scrollto" href="#Change-App-icon">Change App Icon</a>
+                                            <a class="nav-link scrollto" href="#Change-Suplash-screen">Change Splash Screen</a>
+										   <a class="nav-link scrollto" href="#Change-API-Links">Change API Links</a>
+
+										   <a class="nav-link scrollto" href="#In-app-Purchases" style="display:none;">In-app Purchases</a>
+
+
+										  <a class="nav-link scrollto" href="#Change-AdMob">Setup Ad Mob</a>
+									
+										</nav>	
+									<a class="nav-link scrollto" href="#Firebase-Configuring">Firebase Configuration</a>
+									
+
+								
+									<a class="nav-link scrollto" href="#Debug-and-release-Key">Debug and Release Key</a>
+									
+									<a class="nav-link scrollto" href="#Google-Map-Configuration">Google Map Configuration</a>	
+									
+									<a class="nav-link scrollto" href="#Facebook-Login">Facebook Login Configuration</a>
+									<a class="nav-link scrollto" href="#Phone-Login-Configuration">Phone Login Configuration</a>
+									<a class="nav-link scrollto" href="#Google-Login-Configuration">Google Login Configuration</a>
+									
+									<a class="nav-link scrollto" href="#Hide-Any-Social-Media-Button">Hide Any Social Media Button</a>
+									
+									<a class="nav-link scrollto" href="#Giphy-API">Giphy API & Integration </a>
+									
+									 <a class="nav-link scrollto" href="#In-app-Purchase">In-app Purchases</a>
+
+									<a class="nav-link scrollto" href="#voice-calling">Voice & Video Calling (Twillo) </a>
+									<a class="nav-link scrollto" href="#video-calling">Live Streaming (Agora) </a>
+									<a class="nav-link scrollto" href="#GenerateDebugAPK">GenerateDebugAPK</a>	
+									<a class="nav-link scrollto" href="#Push-Notification">Enable Firebase Push Notification</a>
+									<a class="nav-link scrollto" href="#faq">FAQ</a>	
+
+	                               
+									
+	                            </nav>
+	                        
+                        </div>
+                    </div>
+                </div>             
+            </div>
+        </div>
+        
+       
+        
+    </div>
+    
+     
+     
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <style>
+        /*Cookie Consent Begin*/
+            #cookieConsent {
+                background-color:#C52127;
+                min-height: 26px;
+                font-size: 14px;
+                color: #ffffff;
+                line-height: 26px;
+                padding: 10px 0 10px 30px;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 9999;
+            }
+            #cookieConsent a {
+                color: #4B8EE7;
+                text-decoration: none;
+            }
+            #closeCookieConsent {
+                float: right;
+                display: inline-block;
+                cursor: pointer;
+                height: 20px;
+                width: 20px;
+                margin: -15px 0 0 0;
+                font-weight: bold;
+            }
+            #closeCookieConsent:hover {
+                color: #FFF;
+            }
+            #cookieConsent a.cookieConsentOK {
+                background-color: #F1D600;
+                color: #000;
+                display: inline-block;
+                border-radius: 5px;
+                padding: 5px 40px;
+                cursor: pointer;
+                float: right;
+                margin: 0 60px 0 10px;
+                font-weight: 600;
+            }
+            #cookieConsent a.cookieConsentOK:hover {
+                background-color: #E0C91F;
+            }
+            /*Cookie Consent End*/
+
+    </style>
+      
+</body>
+
+
+</html> 
+
